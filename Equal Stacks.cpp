@@ -57,7 +57,7 @@ int main(){
              h3.pop_back();
              n3--;
         }
-        if((stk1 == stk2 && stk2 == stk3) || (stk1 == 0 && stk2 == 0 && stk3 == 0))
+        if((stk1 == stk2 && stk2 == stk3))
             is_equal = true;
     }
 
